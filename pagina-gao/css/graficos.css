@@ -1,0 +1,186 @@
+.containerG{
+	width: 500px;
+	height: 500px;
+	float: left;
+
+}
+
+.graficoGastos{
+
+	text-align: center;
+}
+
+.graficoGastos ul li{
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	margin-right: 5px;
+
+}
+.gastos p {
+	font-size: 20px;
+	font-family: Arial;
+}
+.gastos h1 {
+	font-size:12px;
+	font-family: Arial;
+}
+.gastos .uno {
+	width: 70px;
+	height: 250px;
+	background-color: #ff9900;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+	transition-property: width, height, background-color;
+   transition-duration: 0.5s, 1s, 1s;
+   transition-timing-function: ease, ease-out;
+   transition-delay: 0s ,0.5s, 1.5s;
+
+	
+}
+.gastos .dos {
+	width: 70px;
+	height: 200px;
+	background-color:#ff6666;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+
+}
+.gastos .tres {
+	width: 70px;
+	height: 350px;
+	background-color: red;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+
+}
+.gastos .cuatro {
+	width: 70px;
+	height: 300px;
+	background-color: #ffcc00;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+
+}
+.gastos .cinco {
+	width: 70px;
+	height: 180px;
+	background-color: #66ccff;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+}
+.gastos .uno :hover {
+	width: 70px;
+	height: 350px;
+	background-color: #ff9900;
+	transition-property: width, height, background-color;
+      transition-duration: 0.5s, 0.5s, 0.5s;
+      transition-timing-function: linear, linear;
+      transition-delay: 0s ,0.5s, 0.5s;
+	
+}
+.gastos .dos {
+	width: 70px;
+	height: 200px;
+	background-color:#ff6666;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+
+}
+.gastos .tres {
+	width: 70px;
+	height: 350px;
+	background-color: red;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+
+}
+.gastos .cuatro {
+	width: 70px;
+	height: 300px;
+	background-color: #ffcc00;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+
+}
+.gastos .cinco {
+	width: 70px;
+	height: 180px;
+	background-color: #66ccff;
+	text-align: center;
+	color:white;
+	border-radius: 8px;
+}
+
+.containerN {
+	width: 500px;
+	height: 500px;
+	float:right;
+}
+
+.graficoGanancias{
+
+	text-align: center;
+}
+
+.graficoGanancias ul li{
+	text-align: right;
+	text-decoration: none;
+	list-style: none;
+	margin-right: 5px;
+
+}
+.graficoGanancias p {
+	font-size: 15px;
+	font-family: Arial;
+}
+.graficoGanancias h1 {
+	font-size:12px;
+	font-family: Arial;
+}
+.ganancias .uno {
+	height: 50px;
+	width:  400px;
+	background-color: #ff0000;
+	color:white;
+	border-radius: 8px;
+}
+.ganancias .dos {
+	height: 50px;
+	width:  350px;
+	background-color: #ff6600;
+	color:white;
+	border-radius: 8px;
+
+}
+.ganancias .tres {
+	height: 50px;
+	width:  300px;
+	background-color: #ff9900;
+	color:white;
+	border-radius: 8px;
+
+}
+.ganancias .cuatro {
+	height: 50px;
+	width:  370px;
+	background-color: #ff0066;
+	color:white;
+	border-radius: 8px;
+
+}
+.ganancias .cinco {
+	height: 50px;
+	width:  250px;
+	background-color: #0099ff;
+	color:white;
+	border-radius: 8px;
+}
