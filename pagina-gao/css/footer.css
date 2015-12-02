@@ -1,0 +1,105 @@
+body{
+	 margin:0px 0px 0px 0px;
+}
+.container{
+	width: 100%;
+	height:100%;
+
+}
+.redes{
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	background-color: #b30000;
+
+}
+.info{
+
+	width: 100%;
+	height: 270px;
+	background-color: #404040;
+	
+
+}
+.pf{
+	float:right;
+	font-size: 40px;
+	color:white;
+	font-family: arial;
+	margin-right: 20px;
+	margin-top:20px;
+
+}
+.list{
+	height: 100%;
+	width: 40%;
+	float: left;
+
+
+}
+.list ul{
+	margin-top: 50px;
+	list-style: none;
+	color:white;
+	font-size: 16px;
+	font-family: Arial;
+	
+
+}
+.list ul a{
+	
+	
+	color:white;
+}
+.list ul li{
+	margin:0 0 12px 12px;
+
+}
+.list ul a:hover{
+	color: green;
+
+}
+.list .list1{
+	float:left;
+
+}
+
+.list .list2{
+
+	float: right;
+}
+
+.sopor{
+	height: 100%;
+	width: 50%;
+	float:right;
+
+}
+.sopor ul{
+	margin-top: 30px;
+	list-style: none;
+	color:white;
+	font-size: 16px;
+	font-family: Arial;
+	
+
+}
+.sopor ul a{
+	
+	color:white;
+}
+.sopor ul li{
+	margin:0 0 12px 12px;
+
+}
+.sopor ul a:hover{
+	color: green;
+
+}
+.footer img{
+
+	position: relative;
+	top:30px;
+	left: 50%;
+
+}

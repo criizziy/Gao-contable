@@ -1,7 +1,7 @@
 <div class="ventasPie">
 
 
-<div id="canvas-holder" style="text-align:center;">
+<div id="canvas-holder" class="pie" style="text-align:center;">
 	<h1 style="font-family:sans-serif;font-size:30px;"> Ventas </h1>
 			<canvas id="chart-area" width="400" height="400"/>
 </div>

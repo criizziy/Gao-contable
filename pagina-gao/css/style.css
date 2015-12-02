@@ -1,5 +1,5 @@
 .nav-container{ 
-	background: url('logo.jpg') repeat-x 0 0;
+	
 
 }
     .f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;background-color: black;} /* this make our menu fixed top */
@@ -38,7 +38,7 @@
 .nav {
 
   width: auto;
-  border-bottom: 3px solid #47c9af;
+  border-bottom: 3px solid #b30000;
   font-family: Raleway, sans-serif;
   line-height: 1;
 }
@@ -107,5 +107,5 @@
 .nav > ul > li.active > a:after,
 .nav > ul > li:hover > a:after,
 .nav > ul > li > a:hover:after {
-  background: #47c9af;
+  background: #b30000;
 }

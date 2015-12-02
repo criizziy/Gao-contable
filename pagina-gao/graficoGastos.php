@@ -1,7 +1,7 @@
 
 <div class="containerG">
 
-<div class="graficoGastos">
+<div  class="graficoGastos">
 
 	<h1 style="font-family:sans-serif;font-size:30px;" >Gastos</h1>
 	

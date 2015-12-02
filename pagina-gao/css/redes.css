@@ -1,0 +1,52 @@
+/* Botones de Redes Sociales - Ciudad Blogger */
+.social_bookmarks_container {
+width:100%;
+height:65px;
+padding:0;
+
+
+}
+.social_bookmarks {
+
+margin:0;
+padding:0;
+}
+.social_bookmarks li {
+margin:0 0 12px 12px;
+height:70px;
+width:70px;
+list-style:none;
+float:left;
+padding:0;
+border-radius:50px;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out; 
+transition: all 0.4s ease-in-out;
+}
+.social_bookmarks li a {
+float:left;
+width:57px;
+line-height:24px;
+display: block;
+text-indent: -99999px;
+margin:0px;
+outline: none;
+padding:0;
+min-height:57px;
+height:100%;
+text-decoration:none;
+}
+.social_bookmarks .iconrss{background: #A4A4A4 url(//lh6.googleusercontent.com/-s8sIx3OX2WI/U4vC1nmgr0I/AAAAAAAALK4/W3Z3qXMwrCg/s114/icon-rss.png) top left no-repeat;}
+.social_bookmarks .iconrssmail{background: #BDBDBD url(//lh5.googleusercontent.com/-H4iUybdCAyU/U4vC1yQWu1I/AAAAAAAALLE/fTpR7eN4cIw/s114/icon-rssmail.png) top left no-repeat;}
+.social_bookmarks .icontwitter{background: #D8D8D8 url(//lh6.googleusercontent.com/-4TshwJW7hIE/U4vC2JM25AI/AAAAAAAALLI/tcIkpheXrYU/s114/icon-twitter.png) top left no-repeat;}
+.social_bookmarks .iconfacebook{background: #E6E6E6 url(//lh5.googleusercontent.com/-nt-UdZG1ns0/U4vC1v57lwI/AAAAAAAALLQ/pAOWjEBSnSg/s114/icon-facebook.png) top left no-repeat;}
+.social_bookmarks .icongplus{background: #F1F1F1 url(//lh6.googleusercontent.com/-brT53y4GgMs/U4vC1UPpmFI/AAAAAAAALK8/vRxosS7GGKs/s114/icon-gplus.png) top left no-repeat;}
+.social_bookmarks .iconfacebook:hover{background-position:center -57px; background-color: #37589b;}
+.social_bookmarks .icontwitter:hover {background-position:center -57px; background-color: #46d4fe;}
+.social_bookmarks .icongplus:hover {background-position:center -57px; background-color: #de5a49;}
+.social_bookmarks .iconrss:hover{background-position:center -57px; background-color: #ff6600;}
+.social_bookmarks .iconrssmail:hover{background-position:center -57px; background-color: #FFDE00;}
+.social_bookmarks li:hover a{background: transparent url(//lh4.googleusercontent.com/-XNviZ_JqvyU/U4vDMDFAX8I/AAAAAAAALLk/E4VIJr1onlo/s57/icon-social-reflect.png) no-repeat;
+}
