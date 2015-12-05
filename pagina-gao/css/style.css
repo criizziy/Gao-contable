@@ -81,7 +81,7 @@
 .nav > ul > li.active > a,
 .nav > ul > li:hover > a,
 .nav > ul > li > a:hover {
-  color: #ffffff;
+  color: white;
 }
 .nav > ul > li > a:after {
   position: absolute;
@@ -108,4 +108,43 @@
 .nav > ul > li:hover > a:after,
 .nav > ul > li > a:hover:after {
   background: #b30000;
+}
+
+
+
+.gan{
+
+    width: 20%;
+    height: 100px;
+    color: #009493;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    float:right;
+    border-radius: 30px;
+    margin-right: 70px;
+    font-family: "Amable";
+    
+
+}
+
+@font-face{
+  font-family:"Amable" ;
+    src: url(fuentes/Amable.ttf) format("truetype");
+}
+
+.gan h1{
+
+  font-size:30px;
+  color: #b30000;
+
+}
+.gas{
+
+    width: 20%;
+    height: 100px;
+    color: white;
+    background-color: white;
+    float:left;
+    border-radius: 30px;
 }

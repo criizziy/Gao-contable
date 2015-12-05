@@ -22,7 +22,8 @@
 			
 			
 			
-			<h1 style="color:black;font-family:Arial;text-align:center;">GAO Developers</h1>
+			<img src="img/gaode1.png" width="420" height="90" style="text-align:center;"></img>
+
 			<section class="nav-container">
 
 				<div class="nav">
@@ -41,16 +42,28 @@
     				<div class="clear"></div>
 				</div>	
 			</section >	
+			<br>
+			<br>
+			<br>
+			<div class="gan">
+				<h1>Ganancias actuales</h1>
+				<p>$1.200.234</p>
 
+			</div>
+
+			<div class="gas">
+
+			</div>
 			<br>
-			<br>
-			<br>
-			<div class="ganacias">
+
+			
+			
+			<div class="soporte">
 				
 				<ul>  
 
 					
-					<li><a href="logear.php"><span>Soporte</span></a></li>      
+					<li><a href="logear.php"><img src="img/servicio_tecnico.png" width="38px" heigth="38px;"></a></li>      
 
 				</ul>
 

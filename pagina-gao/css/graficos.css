@@ -141,10 +141,12 @@
 .graficoGanancias p {
 	font-size: 15px;
 	font-family: Arial;
+	margin-right: 30px;
 }
 .graficoGanancias h1 {
 	font-size:12px;
 	font-family: Arial;
+	margin-right: 30px;
 }
 .ganancias .uno {
 	height: 50px;

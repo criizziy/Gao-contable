@@ -2,9 +2,13 @@ $(document).ready(function() {
    
    $('.subir').click(function(){
 
-   		$('.info').animate({
+   		$('.redes').animate({
    			height:'+=500px'
+   		
+
+
    		});
+   		$(this).hide();
    });
    
 

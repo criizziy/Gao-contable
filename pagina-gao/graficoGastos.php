@@ -3,7 +3,7 @@
 
 <div  class="graficoGastos">
 
-	<h1 style="font-family:sans-serif;font-size:30px;" >Gastos</h1>
+	<h1 style="font-family:sans-serif;font-size:30px;color:gray;" >Gastos</h1>
 	
 	<ul class="gastos">
 		<li class="uno"><h1>mes 1 </h1> <p>20%</p> </li>
