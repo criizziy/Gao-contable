@@ -1,5 +1,13 @@
 <!DOCTYPE html >
 <html>
+<?php
+		session_start();
+		if(!isset($_SESSION['userid'] )){
+			header("location:login.php");
+		} else 
+		{
+	
+	?>
 <head>
 	<title>Software Contable</title>
 	<link rel="StyleSheet" href="css/style.css" type="css/text">
@@ -22,22 +30,22 @@
 			
 			
 			
-			<img src="img/gaode1.png" width="420" height="90" style="text-align:center;"></img>
+			<img src="img/gaode1.png" width="420" height="90"></img>
 
 			<section class="nav-container">
 
 				<div class="nav">
 				<ul>
-			        <li><a href="">Inicio</a></li>
-			        <li><a href="">Contabilidad</a></li>
-			        <li><a href="">Presupuesto</a></li>
-			        <li><a href="">Gastos</a></li>
-			        <li><a href="">Pagos</a></li>
-			        <li><a href="">Provedoores</a></li>
-			        <li><a href="">Inventario</a></li>
-			        <li><a href="">Reportes</a></li>
-			        <li><a href="">Cartera</a></li>
-			        <li><a href="">Tesoreria</a></li>
+			        <li><a href="index_contable.php">Inicio</a></li>
+			        <li><a href="contabilidad.php">Contabilidad</a></li>
+			        <li><a href="presupuesto.php">Presupuesto</a></li>
+			        <li><a href="gastos.php">Gastos</a></li>
+			        <li><a href="pagos.php">Pagos</a></li>
+			        <li><a href="proveedores.php">Proveedores</a></li>
+			        <li><a href="inventario.php">Inventario</a></li>
+			        <li><a href="reportes.php">Reportes</a></li>
+			        <li><a href="cartera.php">Cartera</a></li>
+			        <li><a href="tesoreria.php">Tesoreria</a></li>
 			    </ul>
     				<div class="clear"></div>
 				</div>	
@@ -99,7 +107,9 @@
 			</section>
 
 			<section class="footer">
+			
 				<img class="subir" src="flecha.png" width="70px" heigth="70px;">
+				
 				<div class="redes">
 
 					
@@ -166,7 +176,7 @@
 						<ul >
 							<li><a href="">Soporte</a></li>
 							<li><a href="">Ayuda</a></li>
-							<li><a href="">Log out</a></li>
+							<li><a href="logout.php">Log out</a></li>
 							
 							
 						</ul>
@@ -181,5 +191,7 @@
 
 		</div>
 	</body>
-
+<?php 
+  }
+?>
 </html>

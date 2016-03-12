@@ -1,0 +1,97 @@
+.f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;background-color: transparent;} 
+body{
+	 margin:0px 0px 0px 0px;
+}
+.container-main{
+	width: 100%;
+	height: 100%;
+	background: url("http://k33.kn3.net/taringa/F/4/A/F/C/F/Criss161/AFE.jpg" );
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+.menu{
+	width: auto;
+	height: 750px;
+	background: url('http://www.aip-barcelona.es/wp-content/uploads/2015/03/Curso-de-e-commerce-en-Barcelona-AIP.jpg');
+	background-size: cover;
+	
+
+}
+.izquierda{
+	width: 40%;
+	float:left;
+	height: 40px;
+}
+
+
+.nombre{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	margin-top: 20px;
+
+}
+.body{
+
+	width: 100%;
+	height: 500px;
+	background:#ff4b21;
+}
+.sli{
+	
+	background:white ;
+}
+
+.inf{
+	width: 100%;
+	height: 250px;
+	background: transparent;
+}
+.footer{
+	width: 100%;
+	height: 400px;
+	background: white;
+}
+.body .dere{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.body .izqui{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.log{
+	width: 100%;
+	height: 50px;
+	background-color:gray;
+
+}
+.form-log {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	text-align: center;
+}
+.form-log form{
+	position:relative;
+	top:200px;
+	color: black;
+}
+.container-log{
+	
+	width: 100%;
+	height: 100%;
+	background: url("http://k33.kn3.net/taringa/F/4/A/F/C/F/Criss161/AFE.jpg" );
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+
+
+
+

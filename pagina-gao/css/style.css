@@ -148,3 +148,90 @@
     float:left;
     border-radius: 30px;
 }
+.container{
+  width: 100%;
+  height: auto;
+}
+.BarGastos{
+
+}
+.barra-reportes{
+  width:400px;
+  height: 100px;
+  background: #b30000;
+  margin-left: 37%;
+  border-radius: 20px;
+  color:white;
+
+}
+.barra-reportes ul li{
+  float:left;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 45px;
+  
+  height: 100px;
+  width:70px;
+  background: black;
+}
+.barra-reportes a{
+  text-decoration: none;
+  color:white;
+  
+}
+.tabla-inventario {
+  margin-left: 15%;
+
+}
+
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 70%; text-align: left;    border-collapse: collapse; }
+
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #2677c7;
+    border-top: 4px solid #0066cc;    border-bottom: 1px solid #0099ff; color: white; }
+
+td {    padding: 8px;     background: #cce6ff;     border-bottom: 1px solid #0066cc;
+    color: black;    border-top: 1px solid transparent; }
+
+tr:hover td { background: white; color: #339; }
+
+.filtro{
+
+  width: 60%;
+  text-align: center;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 20%;
+  font-size: 15px;
+
+
+}
+.form-prove input{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color:gray;
+}
+.form-prove label{
+    font-family: Arial;
+
+}
+.form-prove button{
+    margin-top: 20px;
+    margin-left: 43.2%;
+    width: 200px;
+    height: 30px;
+    background:#e73715;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    border-style: none;
+
+}
+
+
+
+
+
+

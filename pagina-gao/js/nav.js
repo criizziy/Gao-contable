@@ -3,7 +3,7 @@ jQuery("document").ready(function($){
 	var nav = $('.nav-container');
 	
 	$(window).scroll(function () {
-		if ($(this).scrollTop() > 140) {
+		if ($(this).scrollTop() > 146) {
 			nav.addClass("f-nav");
 			$(".nav ul").css("background-color", "#b30000");
 			$(".nav ul li a").css("color", "white");
@@ -17,7 +17,7 @@ jQuery("document").ready(function($){
 			    $(this).css("color", "white");
 			    
 			});
-			if ($(this).scrollTop() > 1414) {
+			if ($(this).scrollTop() > 1487) {
 			    		$(".nav ul").css("background-color", "white");
 						$(".nav ul li a").css("color", "#b30000");
 						$(".nav ul li a").hover(function(){

@@ -1,0 +1,53 @@
+.carrousel_inner ul li{
+    float:left;
+    list-style: none;
+    margin: 0;
+    width:200px;
+    height:200px
+}
+.carrousel_inner ul{
+    margin:0;
+    padding:0;
+    height:200px;
+    width: 10000px;
+    overflow:hidden;
+}
+.carrousel_inner{
+    /* border:1px solid red; */
+    float:left;
+    width:600px;
+    height:200px;
+    overflow: hidden;
+}
+.carrousel_left, .carrousel_right{
+    height: 200px;
+    width:30px;
+    float:left;
+}
+.carrousel_left{
+    background: url(nav_left.gif) no-repeat  left top;
+}
+.carrousel_left:hover{
+    background:url("nav_left.gif") no-repeat scroll -50px top transparent;
+}
+.carrousel_right{
+    background: url(nav_right.gif) no-repeat right top;
+}
+.carrousel_right:hover{
+    background: url(nav_right.gif) no-repeat -70px top;
+}
+.left_inactive,.left_inactive:hover{
+    background: url(nav_left.gif) no-repeat -100px top;
+}
+.right_inactive,.right_inactive:hover{
+    background: url(nav_right.gif) no-repeat -20px top;
+}
+
+.carrousel{
+    height: 200px;
+    margin: 0 auto;
+    width: 660px;
+}
+
+
+
